@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Quantity</title>
+    <style>
+        .btn-1{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .btn-2{
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .btn-3{
+            background-color: #f44336;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .btn-4{
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .btn-5{
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        let cartQuantity=0;
+
+    </script>
+    <button class="btn-1" onclick="console.log(`Cart Quantity is: ${cartQuantity}`);">Show Quantity</button>
+    <button class="btn-2" onclick="cartQuantity++; console.log(`Cart Quantity is: ${cartQuantity}`)">Add to cart</button>
+    <button class="btn-3" onclick="cartQuantity+=2; console.log(`Cart Quantity is: ${cartQuantity}`)">+2</button>
+    <button class="btn-4" onclick="cartQuantity+=3; console.log(`Cart Quantity is: ${cartQuantity}`)">+3</button>
+    <button class="btn-5" onclick="cartQuantity=0; console.log(`Cart Quantity is: ${cartQuantity=0}`)">Reset Cart</button>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* For tablets and medium-sized devices */
+@media (max-width: 768px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .move-button {
+        padding: 15px; /* Reduce button size for smaller screens */
+        margin-right: 5px;
+    }
+    .result {
+        font-size: 20px; /* Scale down result text */
+    }
+    .reset-score-button {
+        padding: 6px 12px; /* Adjust button size */
+        font-size: 13px;
+        font-family: Arial;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+}
+
+/* For mobile devices and small screens */
+@media (max-width: 480px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .move-button {
+        padding: 10px;
+    }
+    .move-icon {
+        height: 20px; /* Adjust icon size */
+    }
+    .result {
+        font-size: 18px;
+    }
+    .reset-score-button {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-family: Arial;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+}
+body{
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            margin-left: 36%;
+            margin-right: 36%;
+        }
+        .title{
+            text-align: center;
+            font-size: 35px;
+        }
+        .move-icon{
+            height: 30px;
+
+        }
+        .move-button{
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 50%;
+            padding: 30px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .result{
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+        .score{
+            margin-top: 50px;
+        }
+        .reset-score-button{
+            background-color: white;
+            font-family: Arial;
+            border: none;
+            font-size: 15px;
+            padding: 8px 15px;
+            cursor: pointer;
+            border: 1px solid black;
+            border-radius: 50%;
+        }

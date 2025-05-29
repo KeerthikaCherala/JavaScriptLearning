@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="10-DOM-projects-with-css.css">
+</head>
+<body>
+    <p class="title"><b>Rock Paper Scissors</b></p>
+    <button onclick="systemMove=systemsMove();
+    usersMove('Rock', systemMove)" class="move-button"><img src="images/rock-emoji.png" alt="No image" class="move-icon"></button>
+    <button onclick="systemMove=systemsMove();
+    usersMove('Paper', systemMove)" class="move-button"><img src="images/paper-emoji.png" alt="No image" class="move-icon"></button>
+    <button onclick="systemMove=systemsMove();
+    usersMove('Scissors', systemMove)" class="move-button"><img src="images/scissors-emoji.png" alt="No image" class="move-icon"></button> 
+    <p class="js-result result"> </p>
+    <p class="js-choices"></p>
+    <p class="js-score score"></p>
+    <button onclick="resetScore()" class="reset-score-button">Reset Score</button>  
+    <script src="10-DOM-rps-with-css.js"></script>
+
+</html>
